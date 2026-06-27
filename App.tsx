@@ -14,8 +14,10 @@ import {
 
 function App() {
 return (
-    <SafeAreaProvider>//does not affect ui it's like an calculator which calculates inset (means empty spaces )
-      <SafeAreaView>// applies those insets to shift the content from the unsafe screen areas(means not overlap with status bar, notches)
+    <SafeAreaProvider>
+      {/* does not affect ui it's like an calculator which calculates inset (means empty spaces ) */}
+      <SafeAreaView>
+        {/* applies those insets to shift the content from the unsafe screen areas(means not overlap with status bar, notches) */}
             <Text>hello world</Text>
             </SafeAreaView>
     </SafeAreaProvider>
