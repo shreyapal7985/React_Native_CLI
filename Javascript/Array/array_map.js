@@ -3,5 +3,5 @@
 
    let hobbies=['sports','football','chess']
 
-let updateval=hobbies.map((val)=>"hobby:"+val)
-console.log(updateval)
+let update_val=hobbies.map((val)=>"hobby:"+val)
+console.log(update_val)
